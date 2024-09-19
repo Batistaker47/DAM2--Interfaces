@@ -1,0 +1,10 @@
+D:\Repos David\DAM2--Interfaces\001.Tutorial\bin\Debug\001.Tutorial.exe.config
+D:\Repos David\DAM2--Interfaces\001.Tutorial\bin\Debug\001.Tutorial.exe
+D:\Repos David\DAM2--Interfaces\001.Tutorial\bin\Debug\001.Tutorial.pdb
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\001.Tutorial.csproj.AssemblyReference.cache
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\_001.Tutorial.Form1.resources
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\_001.Tutorial.Properties.Resources.resources
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\001.Tutorial.csproj.GenerateResource.cache
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\001.Tutorial.csproj.CoreCompileInputs.cache
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\001.Tutorial.exe
+D:\Repos David\DAM2--Interfaces\001.Tutorial\obj\Debug\001.Tutorial.pdb
