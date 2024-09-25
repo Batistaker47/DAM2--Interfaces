@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,9 +28,9 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAwwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:49:36.355Z",
+              "WhenOpened": "2024-09-25T08:14:34.409Z",
               "EditorCaption": ""
             },
             {
@@ -46,7 +42,7 @@
               "ToolTip": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:46:22.314Z",
+              "WhenOpened": "2024-09-25T08:12:04.696Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

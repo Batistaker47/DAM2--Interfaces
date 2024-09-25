@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MonitorPartidoFutbol
 {
-    public partial class Form1 : Form
+    public partial class buttonIniciar : Form
     {
-        public Form1()
+        public buttonIniciar()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace MonitorPartidoFutbol
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
 
         }
