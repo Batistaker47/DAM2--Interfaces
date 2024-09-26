@@ -10,9 +10,15 @@ using System.Windows.Forms;
 
 namespace MonitorPartidoFutbol
 {
-
-    public partial class buttonIniciar : Form
+    public partial class Form1 : Form
     {
+        public Form1()
+        {
+            InitializeComponent();
+            this.Load += Form1_Load;
+        }
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             // Lista de equipos
@@ -29,19 +35,47 @@ namespace MonitorPartidoFutbol
             buttonRestarGolVisitante.Enabled = false;
         }
 
-        public buttonIniciar()
+        private void buttonIniciar_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
+            if (comboBoxLocal.SelectedItem == null || comboBoxVisitante.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, seleccione los equipos locales y visitantes.");
+                return;
+            }
 
+            // Mostrar los nombres de los equipos
+            labelLocal.Text = comboBoxLocal.SelectedItem.ToString();
+            labelVisitante.Text = comboBoxVisitante.SelectedItem.ToString();
+            // Inicializar los marcadores en 0
+            textBoxGolesLocal.Text = "0";
+            textBoxGolesVisitante.Text = "0";
+            // Habilitar los controles del marcador
+            textBoxGolesLocal.Enabled = true;
+            textBoxGolesVisitante.Enabled = true;
+            buttonSumarGolLocal.Enabled = true;
+            buttonRestarGolLocal.Enabled = true;
+            buttonSumarGolVisitante.Enabled = true;
+            buttonRestarGolVisitante.Enabled = true;
         }
         private void comboBoxLocal_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
+
 
         private void comboBoxVisitante_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void labelLocal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelVisitante_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void textBoxGolesLocal_TextChanged(object sender, EventArgs e)
@@ -51,27 +85,6 @@ namespace MonitorPartidoFutbol
 
         private void textBoxGolesVisitante_TextChanged(object sender, EventArgs e)
         {
-           
-        }
-        private void buttonIniciarPartido_Click(object sender, EventArgs e)
-        {
-            labelLocal.Text = comboBoxLocal.SelectedItem.ToString();
-            labelVisitante.Text = comboBoxVisitante.SelectedItem.ToString();
-
-            textBoxGolesLocal.Text = "0";
-            textBoxGolesVisitante.Text = "0";
-
-            textBoxGolesLocal.Enabled = true;
-            textBoxGolesVisitante.Enabled = true;
-            buttonSumarGolLocal.Enabled = true;
-            buttonRestarGolLocal.Enabled = true;
-            buttonSumarGolVisitante.Enabled = true;
-            buttonRestarGolVisitante.Enabled = true;
-            if (comboBoxLocal.SelectedItem == null || comboBoxVisitante.SelectedItem == null)
-            {
-                MessageBox.Show("Por favor, seleccione los equipos locales y visitantes.");
-                return;
-            }
 
         }
 
@@ -91,6 +104,7 @@ namespace MonitorPartidoFutbol
             }
             textBoxGolesLocal.Text = golesLocal.ToString();
         }
+
         private void buttonSumarGolVisitante_Click(object sender, EventArgs e)
         {
             int golesVisitante = int.Parse(textBoxGolesVisitante.Text);
@@ -125,6 +139,10 @@ namespace MonitorPartidoFutbol
             buttonSumarGolVisitante.Enabled = false;
             buttonRestarGolVisitante.Enabled = false;
         }
-
     }
+
+
 }
+
+
+

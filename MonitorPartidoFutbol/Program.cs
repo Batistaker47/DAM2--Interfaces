@@ -16,7 +16,7 @@ namespace MonitorPartidoFutbol
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new buttonIniciar());
+            Application.Run(new Form1());
         }
     }
 }

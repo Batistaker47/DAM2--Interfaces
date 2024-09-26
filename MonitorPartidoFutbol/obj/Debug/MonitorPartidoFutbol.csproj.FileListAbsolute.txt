@@ -1,10 +1,10 @@
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.exe.config
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.exe
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.pdb
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.buttonIniciar.resources
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.Properties.Resources.resources
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.GenerateResource.cache
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.exe
-C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.pdb
+C:\Users\David\source\repos\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.exe.config
+C:\Users\David\source\repos\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.exe
+C:\Users\David\source\repos\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.pdb
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.AssemblyReference.cache
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.Form1.resources
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.Properties.Resources.resources
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.GenerateResource.cache
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.exe
+C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.pdb

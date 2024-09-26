@@ -1,9 +1,7 @@
 ﻿namespace MonitorPartidoFutbol
 {
-    partial class buttonIniciar
+    partial class Form1
     {
-        private const bool V = true;
-
         /// <summary>
         /// Variable del diseñador necesaria.
         /// </summary>
@@ -32,8 +30,7 @@
         {
             this.comboBoxLocal = new System.Windows.Forms.ComboBox();
             this.comboBoxVisitante = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.buttonIniciarPartido = new System.Windows.Forms.Button();
+            this.buttonIniciar = new System.Windows.Forms.Button();
             this.labelLocal = new System.Windows.Forms.Label();
             this.labelVisitante = new System.Windows.Forms.Label();
             this.textBoxGolesLocal = new System.Windows.Forms.TextBox();
@@ -48,7 +45,7 @@
             // comboBoxLocal
             // 
             this.comboBoxLocal.FormattingEnabled = true;
-            this.comboBoxLocal.Location = new System.Drawing.Point(260, 175);
+            this.comboBoxLocal.Location = new System.Drawing.Point(193, 124);
             this.comboBoxLocal.Name = "comboBoxLocal";
             this.comboBoxLocal.Size = new System.Drawing.Size(121, 21);
             this.comboBoxLocal.TabIndex = 0;
@@ -57,111 +54,113 @@
             // comboBoxVisitante
             // 
             this.comboBoxVisitante.FormattingEnabled = true;
-            this.comboBoxVisitante.Location = new System.Drawing.Point(762, 175);
+            this.comboBoxVisitante.Location = new System.Drawing.Point(514, 123);
             this.comboBoxVisitante.Name = "comboBoxVisitante";
             this.comboBoxVisitante.Size = new System.Drawing.Size(121, 21);
             this.comboBoxVisitante.TabIndex = 1;
             this.comboBoxVisitante.SelectedIndexChanged += new System.EventHandler(this.comboBoxVisitante_SelectedIndexChanged);
             // 
-            // buttonIniciarPartido
+            // buttonIniciar
             // 
-            this.buttonIniciarPartido.Location = new System.Drawing.Point(430, 354);
-            this.buttonIniciarPartido.Name = "buttonIniciarPartido";
-            this.buttonIniciarPartido.Size = new System.Drawing.Size(155, 50);
-            this.buttonIniciarPartido.TabIndex = 3;
-            this.buttonIniciarPartido.Text = "Iniciar partido";
-            this.buttonIniciarPartido.UseVisualStyleBackColor = true;
-            this.buttonIniciarPartido.Click += new System.EventHandler(this.buttonIniciarPartido_Click);
+            this.buttonIniciar.Location = new System.Drawing.Point(376, 216);
+            this.buttonIniciar.Name = "buttonIniciar";
+            this.buttonIniciar.Size = new System.Drawing.Size(95, 23);
+            this.buttonIniciar.TabIndex = 2;
+            this.buttonIniciar.Text = "Iniciar Partido";
+            this.buttonIniciar.UseVisualStyleBackColor = true;
+            this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
             // 
             // labelLocal
             // 
             this.labelLocal.AutoSize = true;
-            this.labelLocal.Location = new System.Drawing.Point(307, 205);
+            this.labelLocal.Location = new System.Drawing.Point(236, 105);
             this.labelLocal.Name = "labelLocal";
             this.labelLocal.Size = new System.Drawing.Size(35, 13);
-            this.labelLocal.TabIndex = 4;
+            this.labelLocal.TabIndex = 3;
             this.labelLocal.Text = "label1";
+            this.labelLocal.Click += new System.EventHandler(this.labelLocal_Click);
             // 
             // labelVisitante
             // 
             this.labelVisitante.AutoSize = true;
-            this.labelVisitante.Location = new System.Drawing.Point(805, 205);
+            this.labelVisitante.Location = new System.Drawing.Point(563, 105);
             this.labelVisitante.Name = "labelVisitante";
             this.labelVisitante.Size = new System.Drawing.Size(35, 13);
-            this.labelVisitante.TabIndex = 5;
+            this.labelVisitante.TabIndex = 4;
             this.labelVisitante.Text = "label2";
+            this.labelVisitante.Click += new System.EventHandler(this.labelVisitante_Click);
             // 
             // textBoxGolesLocal
             // 
-            this.textBoxGolesLocal.Location = new System.Drawing.Point(270, 232);
+            this.textBoxGolesLocal.Location = new System.Drawing.Point(204, 151);
             this.textBoxGolesLocal.Name = "textBoxGolesLocal";
             this.textBoxGolesLocal.Size = new System.Drawing.Size(100, 20);
-            this.textBoxGolesLocal.TabIndex = 6;
+            this.textBoxGolesLocal.TabIndex = 5;
             this.textBoxGolesLocal.TextChanged += new System.EventHandler(this.textBoxGolesLocal_TextChanged);
             // 
             // textBoxGolesVisitante
             // 
-            this.textBoxGolesVisitante.Location = new System.Drawing.Point(773, 232);
+            this.textBoxGolesVisitante.Location = new System.Drawing.Point(523, 150);
             this.textBoxGolesVisitante.Name = "textBoxGolesVisitante";
             this.textBoxGolesVisitante.Size = new System.Drawing.Size(100, 20);
-            this.textBoxGolesVisitante.TabIndex = 7;
+            this.textBoxGolesVisitante.TabIndex = 6;
             this.textBoxGolesVisitante.TextChanged += new System.EventHandler(this.textBoxGolesVisitante_TextChanged);
             // 
             // buttonSumarGolLocal
             // 
-            this.buttonSumarGolLocal.Location = new System.Drawing.Point(230, 280);
+            this.buttonSumarGolLocal.Location = new System.Drawing.Point(156, 177);
             this.buttonSumarGolLocal.Name = "buttonSumarGolLocal";
             this.buttonSumarGolLocal.Size = new System.Drawing.Size(75, 23);
-            this.buttonSumarGolLocal.TabIndex = 8;
-            this.buttonSumarGolLocal.Text = "Sumar gol";
+            this.buttonSumarGolLocal.TabIndex = 7;
+            this.buttonSumarGolLocal.Text = "Añadir Gol";
             this.buttonSumarGolLocal.UseVisualStyleBackColor = true;
             this.buttonSumarGolLocal.Click += new System.EventHandler(this.buttonSumarGolLocal_Click);
             // 
             // buttonRestarGolLocal
             // 
-            this.buttonRestarGolLocal.Location = new System.Drawing.Point(350, 280);
+            this.buttonRestarGolLocal.Location = new System.Drawing.Point(266, 177);
             this.buttonRestarGolLocal.Name = "buttonRestarGolLocal";
             this.buttonRestarGolLocal.Size = new System.Drawing.Size(75, 23);
-            this.buttonRestarGolLocal.TabIndex = 9;
-            this.buttonRestarGolLocal.Text = "Anular gol";
+            this.buttonRestarGolLocal.TabIndex = 8;
+            this.buttonRestarGolLocal.Text = "Anular Gol";
             this.buttonRestarGolLocal.UseVisualStyleBackColor = true;
             this.buttonRestarGolLocal.Click += new System.EventHandler(this.buttonRestarGolLocal_Click);
             // 
             // buttonSumarGolVisitante
             // 
-            this.buttonSumarGolVisitante.Location = new System.Drawing.Point(716, 280);
+            this.buttonSumarGolVisitante.Location = new System.Drawing.Point(479, 176);
             this.buttonSumarGolVisitante.Name = "buttonSumarGolVisitante";
             this.buttonSumarGolVisitante.Size = new System.Drawing.Size(75, 23);
-            this.buttonSumarGolVisitante.TabIndex = 10;
-            this.buttonSumarGolVisitante.Text = "Sumar gol";
+            this.buttonSumarGolVisitante.TabIndex = 9;
+            this.buttonSumarGolVisitante.Text = "Añadir Gol";
             this.buttonSumarGolVisitante.UseVisualStyleBackColor = true;
             this.buttonSumarGolVisitante.Click += new System.EventHandler(this.buttonSumarGolVisitante_Click);
             // 
             // buttonRestarGolVisitante
             // 
-            this.buttonRestarGolVisitante.Location = new System.Drawing.Point(855, 280);
+            this.buttonRestarGolVisitante.Location = new System.Drawing.Point(600, 176);
             this.buttonRestarGolVisitante.Name = "buttonRestarGolVisitante";
             this.buttonRestarGolVisitante.Size = new System.Drawing.Size(75, 23);
-            this.buttonRestarGolVisitante.TabIndex = 11;
-            this.buttonRestarGolVisitante.Text = "Anular gol";
+            this.buttonRestarGolVisitante.TabIndex = 10;
+            this.buttonRestarGolVisitante.Text = "Anular Gol";
             this.buttonRestarGolVisitante.UseVisualStyleBackColor = true;
             this.buttonRestarGolVisitante.Click += new System.EventHandler(this.buttonRestarGolVisitante_Click);
             // 
             // buttonReiniciar
             // 
-            this.buttonReiniciar.Location = new System.Drawing.Point(430, 423);
+            this.buttonReiniciar.Location = new System.Drawing.Point(376, 254);
             this.buttonReiniciar.Name = "buttonReiniciar";
-            this.buttonReiniciar.Size = new System.Drawing.Size(155, 50);
-            this.buttonReiniciar.TabIndex = 12;
+            this.buttonReiniciar.Size = new System.Drawing.Size(95, 23);
+            this.buttonReiniciar.TabIndex = 11;
             this.buttonReiniciar.Text = "Reiniciar";
             this.buttonReiniciar.UseVisualStyleBackColor = true;
             this.buttonReiniciar.Click += new System.EventHandler(this.buttonReiniciar_Click);
             // 
-            // buttonIniciar
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1176, 696);
+            this.ClientSize = new System.Drawing.Size(871, 475);
             this.Controls.Add(this.buttonReiniciar);
             this.Controls.Add(this.buttonRestarGolVisitante);
             this.Controls.Add(this.buttonSumarGolVisitante);
@@ -171,11 +170,10 @@
             this.Controls.Add(this.textBoxGolesLocal);
             this.Controls.Add(this.labelVisitante);
             this.Controls.Add(this.labelLocal);
-            this.Controls.Add(this.buttonIniciarPartido);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonIniciar);
             this.Controls.Add(this.comboBoxVisitante);
             this.Controls.Add(this.comboBoxLocal);
-            this.Name = "buttonIniciar";
+            this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,8 +184,7 @@
 
         private System.Windows.Forms.ComboBox comboBoxLocal;
         private System.Windows.Forms.ComboBox comboBoxVisitante;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button buttonIniciarPartido;
+        private System.Windows.Forms.Button buttonIniciar;
         private System.Windows.Forms.Label labelLocal;
         private System.Windows.Forms.Label labelVisitante;
         private System.Windows.Forms.TextBox textBoxGolesLocal;
