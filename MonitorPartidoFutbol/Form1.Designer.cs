@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.comboBoxLocal = new System.Windows.Forms.ComboBox();
             this.comboBoxVisitante = new System.Windows.Forms.ComboBox();
             this.buttonIniciar = new System.Windows.Forms.Button();
@@ -40,6 +41,9 @@
             this.buttonSumarGolVisitante = new System.Windows.Forms.Button();
             this.buttonRestarGolVisitante = new System.Windows.Forms.Button();
             this.buttonReiniciar = new System.Windows.Forms.Button();
+            this.labelCronometro = new System.Windows.Forms.Label();
+            this.listBoxGoles = new System.Windows.Forms.ListBox();
+            this.timerPartido = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // comboBoxLocal
@@ -156,11 +160,37 @@
             this.buttonReiniciar.UseVisualStyleBackColor = true;
             this.buttonReiniciar.Click += new System.EventHandler(this.buttonReiniciar_Click);
             // 
+            // labelCronometro
+            // 
+            this.labelCronometro.AutoSize = true;
+            this.labelCronometro.Location = new System.Drawing.Point(400, 53);
+            this.labelCronometro.Name = "labelCronometro";
+            this.labelCronometro.Size = new System.Drawing.Size(34, 13);
+            this.labelCronometro.TabIndex = 12;
+            this.labelCronometro.Text = "00:00";
+            this.labelCronometro.Click += new System.EventHandler(this.labelCronometro_Click);
+            // 
+            // listBoxGoles
+            // 
+            this.listBoxGoles.FormattingEnabled = true;
+            this.listBoxGoles.Location = new System.Drawing.Point(204, 301);
+            this.listBoxGoles.Name = "listBoxGoles";
+            this.listBoxGoles.Size = new System.Drawing.Size(454, 95);
+            this.listBoxGoles.TabIndex = 13;
+            this.listBoxGoles.SelectedIndexChanged += new System.EventHandler(this.listBoxGoles_SelectedIndexChanged);
+            // 
+            // timerPartido
+            // 
+            this.timerPartido.Interval = 1000;
+            this.timerPartido.Tick += new System.EventHandler(this.timerPartido_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 514);
+            this.Controls.Add(this.listBoxGoles);
+            this.Controls.Add(this.labelCronometro);
             this.Controls.Add(this.buttonReiniciar);
             this.Controls.Add(this.buttonRestarGolVisitante);
             this.Controls.Add(this.buttonSumarGolVisitante);
@@ -194,6 +224,9 @@
         private System.Windows.Forms.Button buttonSumarGolVisitante;
         private System.Windows.Forms.Button buttonRestarGolVisitante;
         private System.Windows.Forms.Button buttonReiniciar;
+        private System.Windows.Forms.Label labelCronometro;
+        private System.Windows.Forms.ListBox listBoxGoles;
+        private System.Windows.Forms.Timer timerPartido;
     }
 }
 

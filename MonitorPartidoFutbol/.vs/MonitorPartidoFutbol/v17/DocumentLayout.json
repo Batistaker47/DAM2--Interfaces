@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wBsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T07:22:07.287Z",
               "IsPinned": true,
@@ -41,19 +41,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:40:03.575Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,6 +53,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T07:19:18.161Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAtwM4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:40:03.575Z"
             }
           ]
         }

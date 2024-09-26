@@ -56,6 +56,9 @@ namespace MonitorPartidoFutbol
             buttonRestarGolLocal.Enabled = true;
             buttonSumarGolVisitante.Enabled = true;
             buttonRestarGolVisitante.Enabled = true;
+            // Dar inicio al contedo del cronómetro
+            segundos = 0;
+            timerPartido.Start();
         }
         private void comboBoxLocal_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -93,6 +96,8 @@ namespace MonitorPartidoFutbol
             int golesLocal = int.Parse(textBoxGolesLocal.Text);
             golesLocal++;
             textBoxGolesLocal.Text = golesLocal.ToString();
+            string tiempoGol = labelCronometro.Text;
+            listBoxGoles.Items.Add("Gol Local - " + tiempoGol);
         }
 
         private void buttonRestarGolLocal_Click(object sender, EventArgs e)
@@ -110,6 +115,8 @@ namespace MonitorPartidoFutbol
             int golesVisitante = int.Parse(textBoxGolesVisitante.Text);
             golesVisitante++;
             textBoxGolesVisitante.Text = golesVisitante.ToString();
+            string tiempoGol = labelCronometro.Text;
+            listBoxGoles.Items.Add("Gol Visitante - " + tiempoGol);
         }
 
         private void buttonRestarGolVisitante_Click(object sender, EventArgs e)
@@ -138,7 +145,39 @@ namespace MonitorPartidoFutbol
             buttonRestarGolLocal.Enabled = false;
             buttonSumarGolVisitante.Enabled = false;
             buttonRestarGolVisitante.Enabled = false;
+            // Reiniciar el cronómetro y los segundos
+            segundos = 0;
+            labelCronometro.Text = "00:00";
+            // Detener y reiniciar el Timer
+            timerPartido.Stop();
+            timerPartido.Start();
+            // Limpiar la lista de goles
+            listBoxGoles.Items.Clear();
         }
+
+        private void labelCronometro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBoxGoles_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        int segundos = 0;
+        private void timerPartido_Tick(object sender, EventArgs e)
+        {
+            // Incrementar el tiempo en segundos
+            segundos++;
+            // Calcular los minutos y segundos para mostrarlos en el Label
+            int minutos = segundos / 60;
+            int segundosRestantes = segundos % 60;
+            // Actualizar el Label del cronómetro
+            labelCronometro.Text = minutos.ToString("00") + ":" +
+            segundosRestantes.ToString("00");
+        }
+
     }
 
 
