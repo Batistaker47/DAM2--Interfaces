@@ -45,7 +45,7 @@
             // comboBoxLocal
             // 
             this.comboBoxLocal.FormattingEnabled = true;
-            this.comboBoxLocal.Location = new System.Drawing.Point(193, 124);
+            this.comboBoxLocal.Location = new System.Drawing.Point(193, 86);
             this.comboBoxLocal.Name = "comboBoxLocal";
             this.comboBoxLocal.Size = new System.Drawing.Size(121, 21);
             this.comboBoxLocal.TabIndex = 0;
@@ -54,7 +54,7 @@
             // comboBoxVisitante
             // 
             this.comboBoxVisitante.FormattingEnabled = true;
-            this.comboBoxVisitante.Location = new System.Drawing.Point(514, 123);
+            this.comboBoxVisitante.Location = new System.Drawing.Point(513, 86);
             this.comboBoxVisitante.Name = "comboBoxVisitante";
             this.comboBoxVisitante.Size = new System.Drawing.Size(121, 21);
             this.comboBoxVisitante.TabIndex = 1;
@@ -73,7 +73,7 @@
             // labelLocal
             // 
             this.labelLocal.AutoSize = true;
-            this.labelLocal.Location = new System.Drawing.Point(236, 105);
+            this.labelLocal.Location = new System.Drawing.Point(235, 122);
             this.labelLocal.Name = "labelLocal";
             this.labelLocal.Size = new System.Drawing.Size(35, 13);
             this.labelLocal.TabIndex = 3;
@@ -83,7 +83,7 @@
             // labelVisitante
             // 
             this.labelVisitante.AutoSize = true;
-            this.labelVisitante.Location = new System.Drawing.Point(563, 105);
+            this.labelVisitante.Location = new System.Drawing.Point(558, 122);
             this.labelVisitante.Name = "labelVisitante";
             this.labelVisitante.Size = new System.Drawing.Size(35, 13);
             this.labelVisitante.TabIndex = 4;
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(871, 475);
+            this.ClientSize = new System.Drawing.Size(838, 514);
             this.Controls.Add(this.buttonReiniciar);
             this.Controls.Add(this.buttonRestarGolVisitante);
             this.Controls.Add(this.buttonSumarGolVisitante);

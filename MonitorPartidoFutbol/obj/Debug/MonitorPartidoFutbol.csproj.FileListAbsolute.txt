@@ -8,3 +8,13 @@ C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.
 C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.CoreCompileInputs.cache
 C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.exe
 C:\Users\David\source\repos\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.pdb
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.exe.config
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.exe
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\bin\Debug\MonitorPartidoFutbol.pdb
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.AssemblyReference.cache
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.Form1.resources
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.Properties.Resources.resources
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.GenerateResource.cache
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.exe
+C:\Users\David\Desktop\David\DAM2--Interfaces\MonitorPartidoFutbol\obj\Debug\MonitorPartidoFutbol.pdb
