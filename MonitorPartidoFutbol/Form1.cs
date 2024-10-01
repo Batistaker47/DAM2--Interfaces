@@ -150,7 +150,6 @@ namespace MonitorPartidoFutbol
             labelCronometro.Text = "00:00";
             // Detener y reiniciar el Timer
             timerPartido.Stop();
-            timerPartido.Start();
             // Limpiar la lista de goles
             listBoxGoles.Items.Clear();
         }
