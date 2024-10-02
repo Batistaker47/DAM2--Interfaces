@@ -65,7 +65,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(587, 30);
+            this.label3.Location = new System.Drawing.Point(468, 30);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(794, 85);
+            this.button1.Location = new System.Drawing.Point(675, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 33);
             this.button1.TabIndex = 3;
@@ -118,18 +118,26 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CustomFormat = "dd/mm/yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(314, 65);
+            this.dateTimePicker1.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
+            this.dateTimePicker1.MinDate = new System.DateTime(2021, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(213, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(77, 20);
             this.dateTimePicker1.TabIndex = 8;
-            this.dateTimePicker1.Value = new System.DateTime(2024, 10, 1, 0, 0, 0, 0);
+            this.dateTimePicker1.Value = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(314, 98);
+            this.dateTimePicker2.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
+            this.dateTimePicker2.MinDate = new System.DateTime(2021, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(213, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(77, 20);
             this.dateTimePicker2.TabIndex = 9;
+            this.dateTimePicker2.Value = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
             // 
             // checkedListBox1
             // 
@@ -141,7 +149,7 @@
             "Qatar Airways",
             "Ryanair",
             "Vueling"});
-            this.checkedListBox1.Location = new System.Drawing.Point(590, 62);
+            this.checkedListBox1.Location = new System.Drawing.Point(471, 62);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(138, 94);
             this.checkedListBox1.TabIndex = 10;
@@ -174,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(964, 655);
+            this.ClientSize = new System.Drawing.Size(1003, 658);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
