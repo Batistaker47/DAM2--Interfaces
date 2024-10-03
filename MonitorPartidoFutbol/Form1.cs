@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static MonitorPartidoFutbol.Partido;
 
 namespace MonitorPartidoFutbol
 {
@@ -131,6 +133,7 @@ namespace MonitorPartidoFutbol
 
         private void buttonReiniciar_Click(object sender, EventArgs e)
         {
+            GuardarPartido();
             // Limpiar ComboBox y desactivar controles de marcador
             comboBoxLocal.SelectedItem = null;
             comboBoxVisitante.SelectedItem = null;
@@ -177,10 +180,84 @@ namespace MonitorPartidoFutbol
             segundosRestantes.ToString("00");
         }
 
+        private void lblTotalGoles_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGolesLocal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGolesVisitante_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonExportar_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new
+            StreamWriter("partido.csv"))
+            {
+                writer.WriteLine("Equipo,Minuto");
+                foreach (var item in listBoxGoles.Items)
+                {
+                    writer.WriteLine(item.ToString());
+                }
+                writer.WriteLine("Duración Total: " +
+                labelCronometro.Text);
+            }
+            MessageBox.Show("Datos exportados correctamente.");
+        }
+
+        private void lstHistorial_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void ActualizarEstadisticas()
+        {
+            int golesLocal = listBoxGoles.Items.Cast<string>().Count(g =>
+            g.Contains("Gol Local"));
+            int golesVisitante = listBoxGoles.Items.Cast<string>().Count(g
+            => g.Contains("Gol Visitante"));
+            lblTotalGoles.Text = "Total Goles: " + (golesLocal +
+            golesVisitante);
+            lblGolesLocal.Text = "Goles Local: " + golesLocal;
+            lblGolesVisitante.Text = "Goles Visitante: " +
+            golesVisitante;
+        }
+
+        List<Partido> historialPartidos = new List<Partido>();
+
+        private void GuardarPartido()
+        {
+            String EquipoLocal = comboBoxLocal.SelectedItem.ToString();
+            String EquipoVisitante = comboBoxVisitante.SelectedItem.ToString();
+            int GolesLocal = int.Parse(textBoxGolesLocal.Text);
+            int GolesVisitante = int.Parse(textBoxGolesVisitante.Text);
+            String Duracion = labelCronometro.Text;
+            DateTime Fecha = DateTime.Now;
+            Partido partido = new Partido(EquipoLocal, EquipoVisitante, GolesLocal, GolesVisitante, Duracion, Fecha);
+           
+            historialPartidos.Add(partido);
+            lstHistorial.Items.Add(partido.ToString());
+            // ListBox para mostrar el historial
+        }
+
+        private void ExportarHistorial_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("historial.csv"))
+            {
+                writer.WriteLine("Fecha,Equipo Local,Goles Local,Equipo Visitante, Goles Visitante, Duración");
+                foreach (var partido in historialPartidos)
+                {
+                    writer.WriteLine($"{partido.Fecha},{partido.EquipoLocal},{partido.GolesLocal},{partido.EquipoVisitante},{partido.GolesVisitante},{partido.Duracion}");
+                }
+            }
+            MessageBox.Show("Historial exportado correctamente.");
+        }
     }
 
 
 }
-
-
-

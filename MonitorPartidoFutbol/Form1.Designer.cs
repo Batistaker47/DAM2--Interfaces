@@ -44,12 +44,17 @@
             this.labelCronometro = new System.Windows.Forms.Label();
             this.listBoxGoles = new System.Windows.Forms.ListBox();
             this.timerPartido = new System.Windows.Forms.Timer(this.components);
+            this.lblTotalGoles = new System.Windows.Forms.Label();
+            this.lblGolesLocal = new System.Windows.Forms.Label();
+            this.lblGolesVisitante = new System.Windows.Forms.Label();
+            this.buttonExportar = new System.Windows.Forms.Button();
+            this.lstHistorial = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // comboBoxLocal
             // 
             this.comboBoxLocal.FormattingEnabled = true;
-            this.comboBoxLocal.Location = new System.Drawing.Point(193, 86);
+            this.comboBoxLocal.Location = new System.Drawing.Point(100, 94);
             this.comboBoxLocal.Name = "comboBoxLocal";
             this.comboBoxLocal.Size = new System.Drawing.Size(121, 21);
             this.comboBoxLocal.TabIndex = 0;
@@ -58,7 +63,7 @@
             // comboBoxVisitante
             // 
             this.comboBoxVisitante.FormattingEnabled = true;
-            this.comboBoxVisitante.Location = new System.Drawing.Point(513, 86);
+            this.comboBoxVisitante.Location = new System.Drawing.Point(420, 94);
             this.comboBoxVisitante.Name = "comboBoxVisitante";
             this.comboBoxVisitante.Size = new System.Drawing.Size(121, 21);
             this.comboBoxVisitante.TabIndex = 1;
@@ -66,7 +71,7 @@
             // 
             // buttonIniciar
             // 
-            this.buttonIniciar.Location = new System.Drawing.Point(376, 216);
+            this.buttonIniciar.Location = new System.Drawing.Point(283, 224);
             this.buttonIniciar.Name = "buttonIniciar";
             this.buttonIniciar.Size = new System.Drawing.Size(95, 23);
             this.buttonIniciar.TabIndex = 2;
@@ -77,7 +82,7 @@
             // labelLocal
             // 
             this.labelLocal.AutoSize = true;
-            this.labelLocal.Location = new System.Drawing.Point(235, 122);
+            this.labelLocal.Location = new System.Drawing.Point(142, 130);
             this.labelLocal.Name = "labelLocal";
             this.labelLocal.Size = new System.Drawing.Size(35, 13);
             this.labelLocal.TabIndex = 3;
@@ -87,7 +92,7 @@
             // labelVisitante
             // 
             this.labelVisitante.AutoSize = true;
-            this.labelVisitante.Location = new System.Drawing.Point(558, 122);
+            this.labelVisitante.Location = new System.Drawing.Point(465, 130);
             this.labelVisitante.Name = "labelVisitante";
             this.labelVisitante.Size = new System.Drawing.Size(35, 13);
             this.labelVisitante.TabIndex = 4;
@@ -96,7 +101,7 @@
             // 
             // textBoxGolesLocal
             // 
-            this.textBoxGolesLocal.Location = new System.Drawing.Point(204, 151);
+            this.textBoxGolesLocal.Location = new System.Drawing.Point(111, 159);
             this.textBoxGolesLocal.Name = "textBoxGolesLocal";
             this.textBoxGolesLocal.Size = new System.Drawing.Size(100, 20);
             this.textBoxGolesLocal.TabIndex = 5;
@@ -104,7 +109,7 @@
             // 
             // textBoxGolesVisitante
             // 
-            this.textBoxGolesVisitante.Location = new System.Drawing.Point(523, 150);
+            this.textBoxGolesVisitante.Location = new System.Drawing.Point(430, 158);
             this.textBoxGolesVisitante.Name = "textBoxGolesVisitante";
             this.textBoxGolesVisitante.Size = new System.Drawing.Size(100, 20);
             this.textBoxGolesVisitante.TabIndex = 6;
@@ -112,7 +117,7 @@
             // 
             // buttonSumarGolLocal
             // 
-            this.buttonSumarGolLocal.Location = new System.Drawing.Point(156, 177);
+            this.buttonSumarGolLocal.Location = new System.Drawing.Point(63, 185);
             this.buttonSumarGolLocal.Name = "buttonSumarGolLocal";
             this.buttonSumarGolLocal.Size = new System.Drawing.Size(75, 23);
             this.buttonSumarGolLocal.TabIndex = 7;
@@ -122,7 +127,7 @@
             // 
             // buttonRestarGolLocal
             // 
-            this.buttonRestarGolLocal.Location = new System.Drawing.Point(266, 177);
+            this.buttonRestarGolLocal.Location = new System.Drawing.Point(173, 185);
             this.buttonRestarGolLocal.Name = "buttonRestarGolLocal";
             this.buttonRestarGolLocal.Size = new System.Drawing.Size(75, 23);
             this.buttonRestarGolLocal.TabIndex = 8;
@@ -132,7 +137,7 @@
             // 
             // buttonSumarGolVisitante
             // 
-            this.buttonSumarGolVisitante.Location = new System.Drawing.Point(479, 176);
+            this.buttonSumarGolVisitante.Location = new System.Drawing.Point(386, 184);
             this.buttonSumarGolVisitante.Name = "buttonSumarGolVisitante";
             this.buttonSumarGolVisitante.Size = new System.Drawing.Size(75, 23);
             this.buttonSumarGolVisitante.TabIndex = 9;
@@ -142,7 +147,7 @@
             // 
             // buttonRestarGolVisitante
             // 
-            this.buttonRestarGolVisitante.Location = new System.Drawing.Point(600, 176);
+            this.buttonRestarGolVisitante.Location = new System.Drawing.Point(507, 184);
             this.buttonRestarGolVisitante.Name = "buttonRestarGolVisitante";
             this.buttonRestarGolVisitante.Size = new System.Drawing.Size(75, 23);
             this.buttonRestarGolVisitante.TabIndex = 10;
@@ -152,7 +157,7 @@
             // 
             // buttonReiniciar
             // 
-            this.buttonReiniciar.Location = new System.Drawing.Point(376, 254);
+            this.buttonReiniciar.Location = new System.Drawing.Point(283, 262);
             this.buttonReiniciar.Name = "buttonReiniciar";
             this.buttonReiniciar.Size = new System.Drawing.Size(95, 23);
             this.buttonReiniciar.TabIndex = 11;
@@ -163,7 +168,7 @@
             // labelCronometro
             // 
             this.labelCronometro.AutoSize = true;
-            this.labelCronometro.Location = new System.Drawing.Point(400, 53);
+            this.labelCronometro.Location = new System.Drawing.Point(307, 61);
             this.labelCronometro.Name = "labelCronometro";
             this.labelCronometro.Size = new System.Drawing.Size(34, 13);
             this.labelCronometro.TabIndex = 12;
@@ -173,7 +178,7 @@
             // listBoxGoles
             // 
             this.listBoxGoles.FormattingEnabled = true;
-            this.listBoxGoles.Location = new System.Drawing.Point(204, 301);
+            this.listBoxGoles.Location = new System.Drawing.Point(111, 309);
             this.listBoxGoles.Name = "listBoxGoles";
             this.listBoxGoles.Size = new System.Drawing.Size(454, 95);
             this.listBoxGoles.TabIndex = 13;
@@ -184,11 +189,65 @@
             this.timerPartido.Interval = 1000;
             this.timerPartido.Tick += new System.EventHandler(this.timerPartido_Tick);
             // 
+            // lblTotalGoles
+            // 
+            this.lblTotalGoles.AutoSize = true;
+            this.lblTotalGoles.Location = new System.Drawing.Point(68, 432);
+            this.lblTotalGoles.Name = "lblTotalGoles";
+            this.lblTotalGoles.Size = new System.Drawing.Size(86, 13);
+            this.lblTotalGoles.TabIndex = 14;
+            this.lblTotalGoles.Text = "Total de goles: 0";
+            this.lblTotalGoles.Click += new System.EventHandler(this.lblTotalGoles_Click);
+            // 
+            // lblGolesLocal
+            // 
+            this.lblGolesLocal.AutoSize = true;
+            this.lblGolesLocal.Location = new System.Drawing.Point(185, 432);
+            this.lblGolesLocal.Name = "lblGolesLocal";
+            this.lblGolesLocal.Size = new System.Drawing.Size(35, 13);
+            this.lblGolesLocal.TabIndex = 15;
+            this.lblGolesLocal.Text = "label1";
+            this.lblGolesLocal.Click += new System.EventHandler(this.lblGolesLocal_Click);
+            // 
+            // lblGolesVisitante
+            // 
+            this.lblGolesVisitante.AutoSize = true;
+            this.lblGolesVisitante.Location = new System.Drawing.Point(247, 432);
+            this.lblGolesVisitante.Name = "lblGolesVisitante";
+            this.lblGolesVisitante.Size = new System.Drawing.Size(35, 13);
+            this.lblGolesVisitante.TabIndex = 16;
+            this.lblGolesVisitante.Text = "label2";
+            this.lblGolesVisitante.Click += new System.EventHandler(this.lblGolesVisitante_Click);
+            // 
+            // buttonExportar
+            // 
+            this.buttonExportar.Location = new System.Drawing.Point(333, 432);
+            this.buttonExportar.Name = "buttonExportar";
+            this.buttonExportar.Size = new System.Drawing.Size(75, 23);
+            this.buttonExportar.TabIndex = 17;
+            this.buttonExportar.Text = "Exportar";
+            this.buttonExportar.UseVisualStyleBackColor = true;
+            this.buttonExportar.Click += new System.EventHandler(this.ExportarHistorial_Click);
+            // 
+            // lstHistorial
+            // 
+            this.lstHistorial.FormattingEnabled = true;
+            this.lstHistorial.Location = new System.Drawing.Point(46, 461);
+            this.lstHistorial.Name = "lstHistorial";
+            this.lstHistorial.Size = new System.Drawing.Size(566, 56);
+            this.lstHistorial.TabIndex = 18;
+            this.lstHistorial.SelectedIndexChanged += new System.EventHandler(this.lstHistorial_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(838, 514);
+            this.ClientSize = new System.Drawing.Size(698, 538);
+            this.Controls.Add(this.lstHistorial);
+            this.Controls.Add(this.buttonExportar);
+            this.Controls.Add(this.lblGolesVisitante);
+            this.Controls.Add(this.lblGolesLocal);
+            this.Controls.Add(this.lblTotalGoles);
             this.Controls.Add(this.listBoxGoles);
             this.Controls.Add(this.labelCronometro);
             this.Controls.Add(this.buttonReiniciar);
@@ -227,6 +286,11 @@
         private System.Windows.Forms.Label labelCronometro;
         private System.Windows.Forms.ListBox listBoxGoles;
         private System.Windows.Forms.Timer timerPartido;
+        private System.Windows.Forms.Label lblTotalGoles;
+        private System.Windows.Forms.Label lblGolesLocal;
+        private System.Windows.Forms.Label lblGolesVisitante;
+        private System.Windows.Forms.Button buttonExportar;
+        private System.Windows.Forms.ListBox lstHistorial;
     }
 }
 
