@@ -1,0 +1,13 @@
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.exe.config
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.exe
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.pdb
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.xml
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.vbproj.AssemblyReference.cache
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.Form1.resources
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.Resources.resources
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.vbproj.GenerateResource.cache
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.vbproj.CoreCompileInputs.cache
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.exe
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.xml
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.pdb
+D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.FormPrincipal.resources
