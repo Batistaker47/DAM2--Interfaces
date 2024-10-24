@@ -1,0 +1,12 @@
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.vbproj.AssemblyReference.cache
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.FormPrincipal.resources
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.Resources.resources
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.vbproj.GenerateResource.cache
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.vbproj.CoreCompileInputs.cache
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\bin\Debug\Calculadora.exe.config
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\bin\Debug\Calculadora.exe
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\bin\Debug\Calculadora.pdb
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\bin\Debug\Calculadora.xml
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.exe
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.xml
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Calculadora\obj\Debug\Calculadora.pdb

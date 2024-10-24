@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repos David\\DAM2--Interfaces\\Solucion\\",
+  "WorkspaceRootPath": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41B1340A-2DD0-4A0D-82BC-572DB883F568}|Proyecto1VisualBasic\\Proyecto1VisualBasic.vbproj|d:\\repos david\\dam2--interfaces\\solucion\\proyecto1visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{41B1340A-2DD0-4A0D-82BC-572DB883F568}|Proyecto1VisualBasic\\Proyecto1VisualBasic.vbproj|solutionrelative:proyecto1visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|d:\\repos david\\dam2--interfaces\\primeros pasos\\calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|solutionrelative:calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41B1340A-2DD0-4A0D-82BC-572DB883F568}|Proyecto1VisualBasic\\Proyecto1VisualBasic.vbproj|d:\\repos david\\dam2--interfaces\\solucion\\proyecto1visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{41B1340A-2DD0-4A0D-82BC-572DB883F568}|Proyecto1VisualBasic\\Proyecto1VisualBasic.vbproj|solutionrelative:proyecto1visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|d:\\repos david\\dam2--interfaces\\primeros pasos\\calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|solutionrelative:calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Solucion\\Proyecto1VisualBasic\\Form1.vb",
-              "RelativeDocumentMoniker": "Proyecto1VisualBasic\\Form1.vb",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Solucion\\Proyecto1VisualBasic\\Form1.vb",
-              "RelativeToolTip": "Proyecto1VisualBasic\\Form1.vb",
-              "ViewState": "AQIAAAEAAAAAAAAAAAA1wBwAAABCAAAA",
+              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb",
+              "RelativeDocumentMoniker": "Calculadora\\Form1.vb",
+              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb",
+              "RelativeToolTip": "Calculadora\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-23T07:46:04.056Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-10-24T11:01:27.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Solucion\\Proyecto1VisualBasic\\Form1.vb",
-              "RelativeDocumentMoniker": "Proyecto1VisualBasic\\Form1.vb",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Solucion\\Proyecto1VisualBasic\\Form1.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto1VisualBasic\\Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb",
+              "RelativeDocumentMoniker": "Calculadora\\Form1.vb",
+              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Calculadora\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-23T07:44:33.222Z",
+              "WhenOpened": "2024-10-24T10:50:07.524Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

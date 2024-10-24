@@ -11,3 +11,15 @@ D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto
 D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.xml
 D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.pdb
 D:\Repos David\DAM2--Interfaces\Solucion\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.FormPrincipal.resources
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.vbproj.AssemblyReference.cache
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.FormPrincipal.resources
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.Resources.resources
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.vbproj.GenerateResource.cache
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.vbproj.CoreCompileInputs.cache
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.exe
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.xml
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\obj\Debug\Proyecto1VisualBasic.pdb
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.exe.config
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.exe
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.pdb
+D:\Repos David\DAM2--Interfaces\Primeros Pasos\Proyecto1VisualBasic\bin\Debug\Proyecto1VisualBasic.xml
