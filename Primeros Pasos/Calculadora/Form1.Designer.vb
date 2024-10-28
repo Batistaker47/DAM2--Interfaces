@@ -254,7 +254,7 @@ Partial Class FormPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(304, 409)
+        Me.ClientSize = New System.Drawing.Size(282, 409)
         Me.Controls.Add(Me.TextBoxOperations)
         Me.Controls.Add(Me.ButtonModulo)
         Me.Controls.Add(Me.ButtonExp)
