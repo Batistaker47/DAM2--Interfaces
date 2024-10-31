@@ -1,8 +1,9 @@
 ﻿Public Class FormPrincipal
 
-    Private memoria1 As Double
-    Private memoria2 As Double
-    Private signo As String
+    Dim memoria1 As Decimal
+    Dim memoria2 As Decimal
+    Dim signo As String
+    Dim resultado As Decimal
 
     Private Sub FormPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -12,13 +13,13 @@
     End Sub
 
     Private Sub ButtonBorrar_Click(sender As Object, e As EventArgs) Handles ButtonBorrar.Click
-        TextBoxDisplay.Text = ""
+        TextBoxDisplay.Clear()
     End Sub
 
     Private Sub ButtonSumar_Click(sender As Button, e As EventArgs) Handles ButtonSumar.Click
         Try
             If TextBoxDisplay.Text <> "" Then
-                memoria1 = Val(TextBoxDisplay.Text)
+                memoria1 = Decimal.Parse(TextBoxDisplay.Text)
                 signo = "+"
                 TextBoxDisplay.Clear()
             End If
@@ -27,11 +28,10 @@
 
     End Sub
 
-
     Private Sub ButtonMenos_Click(sender As Object, e As EventArgs) Handles ButtonMenos.Click
         Try
             If TextBoxDisplay.Text <> "" Then
-                memoria1 = Val(TextBoxDisplay.Text)
+                memoria1 = Decimal.Parse(TextBoxDisplay.Text)
                 signo = "-"
                 TextBoxDisplay.Clear()
             End If
@@ -42,7 +42,7 @@
     Private Sub ButtonMult_Click(sender As Object, e As EventArgs) Handles ButtonMult.Click
         Try
             If TextBoxDisplay.Text <> "" Then
-                memoria1 = Val(TextBoxDisplay.Text)
+                memoria1 = Decimal.Parse(TextBoxDisplay.Text)
                 signo = "*"
                 TextBoxDisplay.Clear()
             End If
@@ -52,8 +52,18 @@
     Private Sub ButtonDiv_Click(sender As Object, e As EventArgs) Handles ButtonDiv.Click
         Try
             If TextBoxDisplay.Text <> "" Then
-                memoria1 = Val(TextBoxDisplay.Text)
+                memoria1 = Decimal.Parse(TextBoxDisplay.Text)
                 signo = "/"
+                TextBoxDisplay.Clear()
+            End If
+        Catch ex As Exception
+        End Try
+    End Sub
+    Private Sub ButtonExp_Click(sender As Object, e As EventArgs) Handles ButtonExp.Click
+        Try
+            If TextBoxDisplay.Text <> "" Then
+                memoria1 = Decimal.Parse(TextBoxDisplay.Text)
+                signo = "^"
                 TextBoxDisplay.Clear()
             End If
         Catch ex As Exception
@@ -62,7 +72,7 @@
     Private Sub ButtonIgual_Click(sender As Button, e As EventArgs) Handles ButtonIgual.Click
         Try
             If TextBoxDisplay.Text <> "" And memoria1 <> 0.0 Then
-                memoria2 = TextBoxDisplay.Text
+                memoria2 = Decimal.Parse(TextBoxDisplay.Text)
                 Calcular()
 
             End If
@@ -72,18 +82,26 @@
         End Try
     End Sub
 
-    Private Sub Calcular()
+    'SI QUEREMOS RETORNAR UN VALOR EN VB TENEMOS QUE CREAR UNA FUNCIÓN Y NO UNA SUBRUTINA'
+    Private Function Calcular()
         Select Case signo
             Case "+"
                 TextBoxDisplay.Text = memoria1 + memoria2
+                resultado += TextBoxDisplay.Text
             Case "-"
                 TextBoxDisplay.Text = memoria1 - memoria2
+                resultado += TextBoxDisplay.Text
             Case "*"
                 TextBoxDisplay.Text = memoria1 * memoria2
+                resultado += TextBoxDisplay.Text
             Case "/"
                 TextBoxDisplay.Text = memoria1 / memoria2
+                resultado += TextBoxDisplay.Text
+            Case "^"
+                TextBoxDisplay.Text = memoria1 ^ memoria2
+                resultado += TextBoxDisplay.Text
         End Select
-    End Sub
-
+        Return resultado
+    End Function
 
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormPrincipal
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FormPrincipal
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -41,8 +41,6 @@ Partial Class FormPrincipal
         Me.ButtonMult = New System.Windows.Forms.Button()
         Me.ButtonBorrar = New System.Windows.Forms.Button()
         Me.ButtonExp = New System.Windows.Forms.Button()
-        Me.ButtonModulo = New System.Windows.Forms.Button()
-        Me.TextBoxOperations = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -218,7 +216,7 @@ Partial Class FormPrincipal
         Me.ButtonBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ButtonBorrar.Location = New System.Drawing.Point(29, 107)
         Me.ButtonBorrar.Name = "ButtonBorrar"
-        Me.ButtonBorrar.Size = New System.Drawing.Size(53, 49)
+        Me.ButtonBorrar.Size = New System.Drawing.Size(112, 49)
         Me.ButtonBorrar.TabIndex = 17
         Me.ButtonBorrar.Text = "C"
         Me.ButtonBorrar.UseVisualStyleBackColor = True
@@ -233,30 +231,11 @@ Partial Class FormPrincipal
         Me.ButtonExp.Text = "^"
         Me.ButtonExp.UseVisualStyleBackColor = True
         '
-        'ButtonModulo
-        '
-        Me.ButtonModulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.ButtonModulo.Location = New System.Drawing.Point(88, 107)
-        Me.ButtonModulo.Name = "ButtonModulo"
-        Me.ButtonModulo.Size = New System.Drawing.Size(53, 49)
-        Me.ButtonModulo.TabIndex = 19
-        Me.ButtonModulo.Text = "%"
-        Me.ButtonModulo.UseVisualStyleBackColor = True
-        '
-        'TextBoxOperations
-        '
-        Me.TextBoxOperations.Location = New System.Drawing.Point(91, 22)
-        Me.TextBoxOperations.Name = "TextBoxOperations"
-        Me.TextBoxOperations.Size = New System.Drawing.Size(100, 20)
-        Me.TextBoxOperations.TabIndex = 20
-        '
         'FormPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 409)
-        Me.Controls.Add(Me.TextBoxOperations)
-        Me.Controls.Add(Me.ButtonModulo)
         Me.Controls.Add(Me.ButtonExp)
         Me.Controls.Add(Me.ButtonBorrar)
         Me.Controls.Add(Me.ButtonMult)
@@ -305,6 +284,4 @@ Partial Class FormPrincipal
     Friend WithEvents ButtonMult As Button
     Friend WithEvents ButtonBorrar As Button
     Friend WithEvents ButtonExp As Button
-    Friend WithEvents ButtonModulo As Button
-    Friend WithEvents TextBoxOperations As TextBox
 End Class
