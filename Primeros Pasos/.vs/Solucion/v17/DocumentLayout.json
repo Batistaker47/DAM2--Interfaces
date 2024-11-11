@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|d:\\repos david\\dam2--interfaces\\primeros pasos\\calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|solutionrelative:calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{2A9A6F79-A819-45FB-B73F-E15111B4F9B0}|SimulacroExamen\\SimulacroExamen.vbproj|d:\\repos david\\dam2--interfaces\\primeros pasos\\simulacroexamen\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2A9A6F79-A819-45FB-B73F-E15111B4F9B0}|SimulacroExamen\\SimulacroExamen.vbproj|solutionrelative:simulacroexamen\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9337CE8F-E0FE-45F7-A949-5DFF36E89C2B}|Calculadora\\Calculadora.vbproj|solutionrelative:calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A9A6F79-A819-45FB-B73F-E15111B4F9B0}|SimulacroExamen\\SimulacroExamen.vbproj|d:\\repos david\\dam2--interfaces\\primeros pasos\\simulacroexamen\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2A9A6F79-A819-45FB-B73F-E15111B4F9B0}|SimulacroExamen\\SimulacroExamen.vbproj|solutionrelative:simulacroexamen\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb",
-              "RelativeDocumentMoniker": "Calculadora\\Form1.vb",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Calculadora\\Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\SimulacroExamen\\Form1.vb",
+              "RelativeDocumentMoniker": "SimulacroExamen\\Form1.vb",
+              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\SimulacroExamen\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SimulacroExamen\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-30T07:34:20.125Z",
+              "WhenOpened": "2024-11-11T11:52:48.887Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.vb",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb",
-              "RelativeDocumentMoniker": "Calculadora\\Form1.vb",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\Calculadora\\Form1.vb",
-              "RelativeToolTip": "Calculadora\\Form1.vb",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBQAAABeAAAA",
+              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\SimulacroExamen\\Form1.vb",
+              "RelativeDocumentMoniker": "SimulacroExamen\\Form1.vb",
+              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\Primeros Pasos\\SimulacroExamen\\Form1.vb",
+              "RelativeToolTip": "SimulacroExamen\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-30T07:34:23.683Z",
+              "WhenOpened": "2024-11-11T11:55:19.316Z",
               "EditorCaption": ""
             }
           ]
