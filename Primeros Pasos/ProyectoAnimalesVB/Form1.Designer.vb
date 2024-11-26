@@ -39,9 +39,9 @@ Partial Class Form1
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.ContextMenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -223,7 +223,6 @@ Partial Class Form1
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
-        Me.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ContextMenuStrip1.ResumeLayout(False)
