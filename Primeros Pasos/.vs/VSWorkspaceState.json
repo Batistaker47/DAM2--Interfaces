@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Calculadora"
+    "\\Calculadora",
+    "\\Calculadora\\obj",
+    "\\SimulacroExamenInterfaces_DavidPires\\SimulacroExamenInterfaces_DavidPires"
   ],
   "SelectedNode": "\\Calculadora\\Form1.vb",
   "PreviewInSolutionExplorer": false

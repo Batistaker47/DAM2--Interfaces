@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|d:\\repos david\\dam2--interfaces\\monitorpartidofutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|d:\\repos david\\dam2--interfaces\\monitorpartidofutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|d:\\repos david\\dam2--interfaces\\monitorpartidofutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +22,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T07:12:33.615Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAmwAEBAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:22:07.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,48 +61,10 @@
               "RelativeDocumentMoniker": "Partido.cs",
               "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Partido.cs",
               "RelativeToolTip": "Partido.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T08:32:19.883Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAwwOoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:22:07.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:40:03.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:19:18.161Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

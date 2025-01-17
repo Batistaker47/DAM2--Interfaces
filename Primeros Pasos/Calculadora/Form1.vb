@@ -87,11 +87,11 @@
     'Subtarea que realiza la operación del exponencial'
     'Con un Try controlamos la excepción de error, y dentro hacemos un condicional:
     'Si el display del textbox no está vacío, guardamos en la variable global memoria1 el valor del display parseado a decimal, y pasamos el signo ^'
-    Private Sub ButtonExp_Click(sender As Object, e As EventArgs) Handles ButtonExp.Click
+    Private Sub ButtonPercentage_Click(sender As Object, e As EventArgs) Handles ButtonPercentage.Click
         Try
             If TextBoxDisplay.Text <> "" Then
                 memoria1 = Decimal.Parse(TextBoxDisplay.Text)
-                signo = "^"
+                signo = "%"
                 TextBoxDisplay.Clear()
             End If
         Catch ex As Exception
@@ -130,8 +130,8 @@
             Case "/"
                 TextBoxDisplay.Text = memoria1 / memoria2
                 resultado += TextBoxDisplay.Text
-            Case "^"
-                TextBoxDisplay.Text = memoria1 ^ memoria2
+            Case "%"
+                TextBoxDisplay.Text = memoria1 / 100 * memoria2
                 resultado += TextBoxDisplay.Text
         End Select
         Return resultado

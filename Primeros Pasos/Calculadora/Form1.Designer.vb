@@ -40,7 +40,7 @@ Partial Class FormPrincipal
         Me.TextBoxDisplay = New System.Windows.Forms.TextBox()
         Me.ButtonMult = New System.Windows.Forms.Button()
         Me.ButtonBorrar = New System.Windows.Forms.Button()
-        Me.ButtonExp = New System.Windows.Forms.Button()
+        Me.ButtonPercentage = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -221,22 +221,22 @@ Partial Class FormPrincipal
         Me.ButtonBorrar.Text = "C"
         Me.ButtonBorrar.UseVisualStyleBackColor = True
         '
-        'ButtonExp
+        'ButtonPercentage
         '
-        Me.ButtonExp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.ButtonExp.Location = New System.Drawing.Point(147, 107)
-        Me.ButtonExp.Name = "ButtonExp"
-        Me.ButtonExp.Size = New System.Drawing.Size(53, 49)
-        Me.ButtonExp.TabIndex = 18
-        Me.ButtonExp.Text = "^"
-        Me.ButtonExp.UseVisualStyleBackColor = True
+        Me.ButtonPercentage.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.ButtonPercentage.Location = New System.Drawing.Point(147, 107)
+        Me.ButtonPercentage.Name = "ButtonPercentage"
+        Me.ButtonPercentage.Size = New System.Drawing.Size(53, 49)
+        Me.ButtonPercentage.TabIndex = 18
+        Me.ButtonPercentage.Text = "%"
+        Me.ButtonPercentage.UseVisualStyleBackColor = True
         '
         'FormPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 409)
-        Me.Controls.Add(Me.ButtonExp)
+        Me.Controls.Add(Me.ButtonPercentage)
         Me.Controls.Add(Me.ButtonBorrar)
         Me.Controls.Add(Me.ButtonMult)
         Me.Controls.Add(Me.TextBoxDisplay)
@@ -283,5 +283,5 @@ Partial Class FormPrincipal
     Friend WithEvents TextBoxDisplay As TextBox
     Friend WithEvents ButtonMult As Button
     Friend WithEvents ButtonBorrar As Button
-    Friend WithEvents ButtonExp As Button
+    Friend WithEvents ButtonPercentage As Button
 End Class
