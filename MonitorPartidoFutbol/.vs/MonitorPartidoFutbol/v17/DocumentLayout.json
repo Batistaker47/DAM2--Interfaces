@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\MonitorPartidoFutbol\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|d:\\repos david\\dam2--interfaces\\monitorpartidofutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -13,6 +14,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|d:\\repos david\\dam2--interfaces\\monitorpartidofutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|c:\\users\\usuario\\desktop\\github repos\\dam2--interfaces\\monitorpartidofutbol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\MonitorPartidoFutbol\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB56B2A-9619-4FD9-8F9E-D7B5CBB0AA37}|MonitorPartidoFutbol.csproj|solutionrelative:partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> d7bab8b7c5b337c2d3444266d967128740661dff
     }
   ],
   "DocumentGroupContainers": [
@@ -57,14 +66,29 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Partido.cs",
-              "DocumentMoniker": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Partido.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\MonitorPartidoFutbol\\Partido.cs",
               "RelativeDocumentMoniker": "Partido.cs",
-              "ToolTip": "D:\\Repos David\\DAM2--Interfaces\\MonitorPartidoFutbol\\Partido.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\MonitorPartidoFutbol\\Partido.cs",
               "RelativeToolTip": "Partido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T08:32:19.883Z",
               "EditorCaption": ""
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\MonitorPartidoFutbol\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:19:18.161Z",
+              "EditorCaption": " [Dise\u00F1o]"
+>>>>>>> d7bab8b7c5b337c2d3444266d967128740661dff
             }
           ]
         }

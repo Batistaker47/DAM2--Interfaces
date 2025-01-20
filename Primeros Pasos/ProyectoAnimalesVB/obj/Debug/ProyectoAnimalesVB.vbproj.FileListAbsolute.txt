@@ -10,3 +10,15 @@ D:\Repos David\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\Proy
 D:\Repos David\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.exe
 D:\Repos David\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.xml
 D:\Repos David\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.pdb
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\bin\Debug\ProyectoAnimalesVB.exe.config
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\bin\Debug\ProyectoAnimalesVB.exe
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\bin\Debug\ProyectoAnimalesVB.pdb
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\bin\Debug\ProyectoAnimalesVB.xml
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.vbproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.Form1.resources
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.Resources.resources
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.vbproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.exe
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.xml
+C:\Users\Usuario\Desktop\GitHub Repos\DAM2--Interfaces\Primeros Pasos\ProyectoAnimalesVB\obj\Debug\ProyectoAnimalesVB.pdb

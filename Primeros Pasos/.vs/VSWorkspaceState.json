@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\Calculadora",
     "\\Calculadora\\obj",
     "\\SimulacroExamenInterfaces_DavidPires\\SimulacroExamenInterfaces_DavidPires"
+=======
+    "\\Proyecto1VisualBasic"
+>>>>>>> d7bab8b7c5b337c2d3444266d967128740661dff
   ],
-  "SelectedNode": "\\Calculadora\\Form1.vb",
+  "SelectedNode": "\\Solucion.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\Primeros Pasos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41B1340A-2DD0-4A0D-82BC-572DB883F568}|Proyecto1VisualBasic\\Proyecto1VisualBasic.vbproj|c:\\users\\usuario\\desktop\\github repos\\dam2--interfaces\\primeros pasos\\proyecto1visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{41B1340A-2DD0-4A0D-82BC-572DB883F568}|Proyecto1VisualBasic\\Proyecto1VisualBasic.vbproj|solutionrelative:proyecto1visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E18C5A5-CDF5-4566-9785-F9E4BFFC7A1C}|ProyectoAnimalesVB\\ProyectoAnimalesVB.vbproj|C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\Primeros Pasos\\proyectoanimalesvb\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2E18C5A5-CDF5-4566-9785-F9E4BFFC7A1C}|ProyectoAnimalesVB\\ProyectoAnimalesVB.vbproj|solutionrelative:proyectoanimalesvb\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\Primeros Pasos\\Proyecto1VisualBasic\\Form1.vb",
+              "RelativeDocumentMoniker": "Proyecto1VisualBasic\\Form1.vb",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\Primeros Pasos\\Proyecto1VisualBasic\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto1VisualBasic\\Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-11-26T17:57:03.854Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\Primeros Pasos\\ProyectoAnimalesVB\\Form1.vb",
+              "RelativeDocumentMoniker": "ProyectoAnimalesVB\\Form1.vb",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\GitHub Repos\\DAM2--Interfaces\\Primeros Pasos\\ProyectoAnimalesVB\\Form1.vb",
+              "RelativeToolTip": "ProyectoAnimalesVB\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-11-26T17:56:13.834Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
